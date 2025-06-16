@@ -1,0 +1,254 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AD SAHI CREATIVES - Advertisement Agents</title>
+  <style>
+    :root {
+      --dark-blue: #0a1f44;
+      --light-orange: #ffcc99;
+      --text-light: #f9f9f9;
+      --gray: #d3d3d3;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--dark-blue);
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #0a1f44, #133b6d);
+      padding: 60px 20px 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .creator-name {
+      font-size: 1.1em;
+      color: var(--gray);
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: var(--light-orange);
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: var(--gray);
+    }
+
+    nav {
+      background-color: #112b56;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: var(--light-orange);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1496181133206-80ce9b88a853') no-repeat center center/cover;
+      color: white;
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.8em;
+      margin-bottom: 20px;
+      background: rgba(10, 31, 68, 0.7);
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      background: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+    }
+
+    .service {
+      background-color: #133b6d;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .service:hover {
+      transform: scale(1.05);
+    }
+
+    .service h3 {
+      color: var(--light-orange);
+      margin-bottom: 10px;
+    }
+
+    .about, .contact, .why-us {
+      text-align: center;
+    }
+
+    iframe {
+      max-width: 100%;
+      height: 315px;
+      border: none;
+      margin-top: 30px;
+    }
+
+    .social-links a {
+      color: var(--light-orange);
+      text-decoration: none;
+      margin: 0 15px;
+      display: inline-block;
+      font-size: 1.2em;
+    }
+
+    footer {
+      background-color: #0a1f44;
+      color: var(--gray);
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="AD Sahi Creatives Logo" />
+    <div class="creator-name">Presented by Shahid Sahi</div>
+    <h1>AD SAHI CREATIVES</h1>
+    <p>Advertisement Agents – Showing Your Brand Through Powerful Visuals</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#video">Video</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>We Make Your Brand Speak Louder</h2>
+    <p>Storytelling | Cinematic | Voice-over | Professional Ads</p>
+  </section>
+
+  <section id="services">
+    <h2 style="text-align:center; color: var(--light-orange); margin-bottom: 40px;">Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Storytelling Ads</h3>
+        <p>Emotion-driven stories that leave a lasting impact and build deep audience connection.</p>
+      </div>
+      <div class="service">
+        <h3>Cinematic Ads</h3>
+        <p>Film-style visuals with creative direction that make your brand unforgettable.</p>
+      </div>
+      <div class="service">
+        <h3>Voice-over Ads</h3>
+        <p>Crystal-clear voice work that enhances your message and adds authenticity.</p>
+      </div>
+      <div class="service">
+        <h3>Professional Ad Campaigns</h3>
+        <p>Multi-platform campaigns tailored for TV, YouTube, Instagram & other digital channels.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 style="color: var(--light-orange); margin-bottom: 20px;">About Us</h2>
+    <p>
+      <strong>AD SAHI CREATIVES</strong> is a creative advertising agency led by <strong>Shahid Sahi</strong>. 
+      We believe that a powerful ad is not just about selling — it's about storytelling that resonates, visuals that mesmerize, and voices that inspire action.
+      <br><br>
+      Our mission is to transform your brand's message into cinematic experiences that move people. From idea to execution, we take care of everything: 
+      scriptwriting, direction, production, editing, and delivery. Whether you're a business, influencer, NGO, or startup — we help you speak louder in a crowded world.
+    </p>
+  </section>
+
+  <section class="why-us">
+    <h2 style="color: var(--light-orange); margin-bottom: 20px;">Why Choose Us?</h2>
+    <p>
+      ✦ 100% original concepts tailored to your brand identity<br>
+      ✦ HD cinematic production quality with professional equipment<br>
+      ✦ Expert voice-over artists and emotional sound design<br>
+      ✦ Quick delivery, flexible packages, and collaborative workflow<br>
+    </p>
+  </section>
+
+  <section id="video" class="about">
+    <h2 style="color: var(--light-orange); margin-bottom: 20px;">Watch Our Work</h2>
+    <iframe src="https://www.youtube.com/embed/iqoJCC89yzI?si=jl8Rgzg7Z1xYJLEF" allowfullscreen></iframe>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 style="color: var(--light-orange); margin-bottom: 20px;">Contact Us</h2>
+    <p><strong>Phone:</strong> +92 314 4252870</p>
+    <p><strong>Email:</strong> <a href="mailto:shahidsahi.official@gmail.com" style="color: var(--light-orange);">shahidsahi.official@gmail.com</a></p>
+    <div class="social-links" style="margin-top: 20px;">
+      <a href="https://web.facebook.com/share/v/14xKLB6kZa/" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/p/DJQZ0mLCNvR/?utm_source=ig_web_copy_link" target="_blank">Instagram</a>
+      <a href="https://youtu.be/iqoJCC89yzI?si=jl8Rgzg7Z1xYJLEF" target="_blank">YouTube</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AD SAHI CREATIVES | Presented by SHAHID SAHI</p>
+    <p>Upcoming Features: Client Testimonials | Project Gallery | Meet the Team | Blog & Insights</p>
+  </footer>
+
+</body>
+</html>
+
